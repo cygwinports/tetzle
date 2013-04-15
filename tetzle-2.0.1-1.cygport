@@ -1,7 +1,0 @@
-inherit qt4-qmake
-
-DESCRIPTION="Qt jigsaw puzzle game"
-HOMEPAGE="http://gottcode.org/tetzle/"
-SRC_URI="http://gottcode.org/${PN}/${P}-src.tar.bz2"
-
-CYGQMAKE4_ARGS="PREFIX=/usr"
