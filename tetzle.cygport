@@ -1,7 +1,7 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="tetzle"
-VERSION=2.0.3
+VERSION=2.1.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt jigsaw puzzle game"
@@ -12,4 +12,4 @@ currently in progress games."
 HOMEPAGE="http://gottcode.org/tetzle/"
 SRC_URI="http://gottcode.org/tetzle/${NAME}-${VERSION}-src.tar.bz2"
 
-CYGQMAKE4_ARGS="PREFIX=/usr"
+CYGQMAKE5_ARGS="PREFIX=/usr"
